@@ -26,8 +26,8 @@ const HeaderLayout = styled.div`
 
 const ListLayout = styled.div`
   width: 100%;
-  height: calc(100% - 100px);
-  overflow-y: auto;
+  height: calc(100vh - 130px);
+  overflow: scroll;
   padding: 5px;
   border: 1px solid lightblue;
 `
